@@ -1,4 +1,4 @@
-// Desenvolupat per Jules - 14/12/2025
+// Desenvolupat per JAN QUERALT - 14/12/2025
 import { Component } from '@angular/core';
 import { RouterOutlet, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';

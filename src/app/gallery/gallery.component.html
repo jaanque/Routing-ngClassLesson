@@ -1,0 +1,19 @@
+<h2>Galeria</h2>
+<div class="gallery-nav">
+    <button routerLink="artists"
+            [ngClass]="{'btn-animate': isArtistsHovered}"
+            (mouseenter)="isArtistsHovered = true"
+            (mouseleave)="isArtistsHovered = false">
+        Veure Artistes
+    </button>
+    <button routerLink="paints"
+            [ngClass]="{'btn-animate': isPaintsHovered}"
+            (mouseenter)="isPaintsHovered = true"
+            (mouseleave)="isPaintsHovered = false">
+        Veure Pintures
+    </button>
+</div>
+
+<div class="gallery-content">
+    <router-outlet></router-outlet>
+</div>

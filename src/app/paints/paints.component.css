@@ -1,0 +1,30 @@
+.paints-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.paint-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.paint-card img {
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.4s ease;
+}
+
+/* Classe aplicada amb ngClass (diferent de Artists) */
+.sepia-effect {
+    background-color: #fff8e1;
+    border-color: #ffa000;
+}
+
+.sepia-effect img {
+    filter: sepia(100%);
+    transform: rotate(2deg);
+}

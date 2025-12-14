@@ -1,0 +1,10 @@
+<div class="paints-container">
+    <div *ngFor="let paint of paints; let i = index"
+         class="paint-card"
+         [ngClass]="{'sepia-effect': hoveredIndex === i}"
+         (mouseenter)="onMouseEnter(i)"
+         (mouseleave)="onMouseLeave()">
+        <img [src]="paint.image" [alt]="paint.title">
+        <h3>{{ paint.title }}</h3>
+    </div>
+</div>

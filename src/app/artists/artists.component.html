@@ -1,0 +1,10 @@
+<div class="artists-container">
+    <div *ngFor="let artist of artists; let i = index"
+         class="artist-card"
+         [ngClass]="{'highlight': hoveredIndex === i}"
+         (mouseenter)="onMouseEnter(i)"
+         (mouseleave)="onMouseLeave()">
+        <img [src]="artist.image" [alt]="artist.name">
+        <h3>{{ artist.name }}</h3>
+    </div>
+</div>

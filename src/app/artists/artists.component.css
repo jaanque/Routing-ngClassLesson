@@ -17,9 +17,11 @@
     height: auto;
 }
 
-/* Classe aplicada amb ngClass */
 .highlight {
     background-color: #f0f8ff;
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
+
+

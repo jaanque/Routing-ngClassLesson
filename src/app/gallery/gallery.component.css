@@ -16,7 +16,6 @@ button {
     transition: all 0.3s ease;
 }
 
-/* Animació visual quan s'aplica la classe */
 .btn-animate {
     background-color: #0056b3;
     transform: scale(1.1);
